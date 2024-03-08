@@ -64,8 +64,7 @@ while coins > 0:
         input()
         break
 
-    main()
-else:
-    print("Thanks for playing!")
+
+ 
 
 
