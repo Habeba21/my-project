@@ -1,7 +1,3 @@
-# file: CS112_A1_T1_Game3_20230633.py
-# Author:Habeba Ahmed Ragab
-# ID:20230633
-
 """
 Subtract a square. This is a two-player mathematical game of strategy. It is played by two
 people with a pile of coins (or other tokens) between them. The players take turns removing
@@ -67,8 +63,7 @@ while coins > 0:
         print("Player 2 wins!")
         input()
         break
-play_again=input("Would you like to play again? (yes/no): ").lower()
-if play_again==yes:
+
     main()
 else:
     print("Thanks for playing!")
